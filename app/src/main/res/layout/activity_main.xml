@@ -87,12 +87,26 @@
         android:layout_alignStart="@+id/textView7" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Add Music"
+        android:text="My Music"
         android:id="@+id/addMusicButton"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true" />
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="34dp"
+        android:background="@color/colorAccent"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Pictures"
+        android:id="@+id/picturesButton"
+        android:layout_below="@+id/addMusicButton"
+        android:layout_alignParentLeft="true"
+        android:background="@color/colorAccent"
+        android:layout_margin="10dp"/>
 
 
 </RelativeLayout>
